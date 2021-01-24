@@ -18,17 +18,17 @@ font-size:36px;
 }
 
 img {
-margin-left: 5px;
-margin-top:10px;
+display: block;
+width: auto;
+margin: auto;
 }
 
 #container {
-margin-top:20%;
+margin-top:10%;
 margin-left:10%;
 margin-right:10%;
-margin-bottom:5%;
+margin-bottom:10%;
 }
-
 .row{
 position:relative;
 margin-left:10%;
@@ -51,13 +51,14 @@ background-color:#787878;
 float:left;
 }
 
-#clear{
+.clear{
 clear:both;
 }
 
  
 
 #footer {
+text-align: center;
 border:solid 1px;
 padding: 10px;
 margin:10px;
