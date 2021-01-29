@@ -16,6 +16,10 @@ body {
 	margin-bottom: 1em;
 	background-color: #999900;
 	margin: 1%;}
+img {
+display: block;
+margin: auto;
+}
 #footer {
 	background-color: #990099;
 	padding: 0.5em 0;
