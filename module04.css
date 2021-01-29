@@ -1,8 +1,9 @@
 #header {
-	font-family: Arial, Verdana, sans-serif;
+	font-family: 'GaroaHackerClubeBold', Arial, Verdana, sans-serif;
 	color: #999999;
 	text-align: center;}
 body {
+	background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.freecreatives.com%2Fwp-content%2Fuploads%2F2016%2F03%2FGrungy-Red-Black-Wallpaper.jpg&f=1&nofb=1");
 	width: 90%;
 	margin: 0 auto;}
 #content {
