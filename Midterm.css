@@ -21,6 +21,12 @@ img {
 display: block;
 margin: auto;
 }
+#welcome {
+	height: 10em;
+	margin-bottom: 1em;
+	margin: 1%;
+	text-align: center;
+}
 #footer {
 	background-color: #990099;
 	padding: 0.5em 0;
