@@ -1,11 +1,10 @@
 #header {
 	font-family: 'GaroaHackerClubeBold', Arial, Verdana, sans-serif;
 	color: #ffffff;
-	background-color: #000000;
 	text-align: center;}
 body {
 	background-image:url("https://github.com/owenspires/Prog109/blob/main/beachback.png?raw=true");
-	margin: 0 auto;}
+	margin: auto;}
 #content {
 	overflow: auto;}
 #nav {
@@ -28,8 +27,8 @@ margin: auto;
 	text-align: center;
 }
 #footer {
-	background-color: #990099;
 	padding: 0.5em 0;
+	margin-bottom: 
 	margin: 1%;}
 li {
 	display: inline;
