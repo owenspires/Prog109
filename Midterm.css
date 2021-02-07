@@ -14,7 +14,9 @@ body {
 #feature {
 	height: 10em;
 	margin-bottom: 1em;
+	background-color: #ffffff;
 	margin: 1%;}
+
 img {
 display: block;
 margin: auto;
@@ -25,10 +27,6 @@ margin: auto;
 	margin: 1%;
 	text-align: center;
 }
-#footer {
-	padding: 0.5em 0;
-	margin-bottom: 
-	margin: 1%;}
 li {
 	display: inline;
 	padding: 0.5em;}
