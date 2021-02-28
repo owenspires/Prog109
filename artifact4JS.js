@@ -23,10 +23,10 @@ function validateForm(){
 	stripPhone();
 	var frmvalidator = new Validator("contactform");
  	frmvalidator.addValidation("contact-firstname","req","Please enter your First Name");
- 	frmvalidator.addValidation("contact-firstname","alpha","Please enter alphabetical characters only");
+ 	frmvalidator.addValidation("contact-firstname","alpha","Please enter alphabetical characters only for first Name");
  	frmvalidator.addValidation("contact-firstname","maxlen=20","Maximum number of characters for First Name is 20");
  	frmvalidator.addValidation("contact-lastname","req","Please enter your Last Name");
- 	frmvalidator.addValidation("contact-lastname","alpha","Please enter alphabetical characters Only");
+ 	frmvalidator.addValidation("contact-lastname","alpha","Please enter alphabetical characters Only for last Name");
  	frmvalidator.addValidation("contact-lastname","maxlen=50","Maximum number of characters for Last Name is 50");
  	frmvalidator.addValidation("contact-email","req","Please enter your email");
  	frmvalidator.addValidation("contact-email","email","Please enter a proper email address");
