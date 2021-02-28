@@ -1,0 +1,21 @@
+body {
+	font-family: arial,helvetica,sans-serif;
+}
+form {
+	margin: 20px;
+}
+label {
+	margin: 5px 0px;
+	color: #333;
+}
+input, select {
+	margin: 5px 0px 10px 0px;
+	padding: 3px 2px;
+	width: 250px;
+	border-radius: 5px;
+	border: 1px #999 solid;
+}
+#errorMessages {
+	color: red;
+	font-weight: bold;
+}
