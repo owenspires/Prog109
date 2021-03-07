@@ -1,0 +1,70 @@
+body {
+	margin: 0px;
+	overflow: hidden;
+}
+.viewport {
+  display: block;
+  width: 100%;
+  height: 268px;
+  float: left;
+  margin: 0px;
+  z-index: 10;
+  background-color: #fff;
+	overflow: hidden;
+}
+.controls {
+  display: block;
+  width: 100%;
+  height: 30px;
+  float: left;
+  margin: 10px 0px;
+  background-color: #fff;
+}
+button {
+	border-radius: 4px;
+	border: 1px solid #666;
+	background-color: #dddddd;
+	color: #666666;
+}
+.previous {
+	float: left;
+	position: relative;
+	left: 390px;
+	top: 10px;
+	z-index: 8;
+}
+.next {
+	float: right;
+	position: relative;
+	right: 415px;
+	top: 10px;
+	z-index: 8;
+}
+.offstage {
+	position: relative;
+  width: 500px;
+  height: 268px;
+  float: left;
+  z-index: 5;
+}
+#stage-left, #stage-right {
+  background-color: black;
+}
+#stage-right {
+  float: right;
+}
+#slideport {
+	width: 2010px;
+	height: 268px;
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	z-index: 1;
+	background-color: #ffffff;
+}
+.carousel-img {
+	width: 402px;
+	position: absolute;
+	top: 0px;
+  z-index: 1;
+}
